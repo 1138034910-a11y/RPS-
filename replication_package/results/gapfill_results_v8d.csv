@@ -1,0 +1,13 @@
+﻿eq,spec,outcome,weakabs,form,coef,beta,se_cluster,p_cluster,p_wildboot,n_obs,n_prov,p_rw,t_obs
+G1a,firststage_panel|actual_nonhydro_rate,actual_nonhydro_rate,,,beta_dweight,0.19391196756673057,0.1356542412081197,0.15287279236315415,0.123,171,29,,
+G1a,firststage_panel|actual_total_rate,actual_total_rate,,,beta_dweight,0.36871379521252434,0.22425137125526567,0.10013518186526606,0.121,171,29,,
+G1b,firststage_shock|actual_nonhydro_rate,actual_nonhydro_rate,,,beta_dtPost,0.7928383608859588,0.3150153968208725,0.011841791292373812,0.029,199,29,,
+G1b,firststage_shock|actual_total_rate,actual_total_rate,,,beta_dtPost,1.5039233834057524,0.35351516447010223,2.0979992357668702e-05,0.003,199,29,,
+G1c,firststage_panel|met_nonhydro,met_nonhydro,,,beta_dweight,-0.0016967329482385426,0.005475436603060974,0.756651566030462,0.851,174,29,,
+G3a,T2c_heating_only|wind,wind_curtailment_pct,heat_rigidity,continuous,beta2_triple,0.19793384278324783,0.03718214987820508,1.0186976718166425e-07,0.002,150,25,,
+G3b,T1_heating_only|wind,wind_curtailment_pct,heat_rigidity,continuous,beta2_triple,0.09772064988505302,0.04846692816119026,0.0437755526904087,0.065,175,25,,
+G4,romano_wolf|T2c_wind,wind_curtailment_pct,weak_export,continuous,beta2_triple,,,,,145,29,1.0,0.15653207579194486
+G4,romano_wolf|T2c_wind,wind_curtailment_pct,heat_rigidity,continuous,beta2_triple,,,,,145,29,0.007,3.7695350946823396
+G4,romano_wolf|T2c_wind,wind_curtailment_pct,resource_vol,continuous,beta2_triple,,,,,145,29,0.588,1.2444184981711883
+G4,romano_wolf|T2c_wind,wind_curtailment_pct,pipeline_pressure,continuous,beta2_triple,,,,,145,29,0.37,1.5845693580373341
+G5,T2c_alt_gj|wind,wind_curtailment_pct,heat_rigidity_gj,continuous,beta2_triple,0.19953986063494453,0.0477341000957657,2.9120518599341604e-05,0.018,174,29,,

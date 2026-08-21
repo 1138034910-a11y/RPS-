@@ -1,0 +1,41 @@
+﻿analysis,outcome,controls,beta,se_cluster,p_cluster,p_wildboot,n_obs,n_prov
+baseline|main(excl_Xinjiang)|(a)no_controls,wind_curtailment_pct,none,0.1373299003044814,0.13149199104691617,0.2963015423628118,0.279,203,29
+baseline|main(excl_Xinjiang)|(b)cap+cons_growth,wind_curtailment_pct,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct,0.12010402381362831,0.14081997279674752,0.39372000361258086,0.383,174,29
+baseline|main(excl_Xinjiang)|(c)+export+ind+gdp,wind_curtailment_pct,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct+export_ratio_pct+secondary_industry_share+gdp_growth_pct,0.1113042163654592,0.14788225562735813,0.4516576754596786,0.45,168,28
+baseline|main(excl_Xinjiang)|(a)no_controls,solar_curtailment_pct,none,0.19149772372807494,0.14907547252444805,0.19894295359555547,0.187,203,29
+baseline|main(excl_Xinjiang)|(b)cap+cons_growth,solar_curtailment_pct,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct,0.20189464177298094,0.16272174710837198,0.2147034901803525,0.224,174,29
+baseline|main(excl_Xinjiang)|(c)+export+ind+gdp,solar_curtailment_pct,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct+export_ratio_pct+secondary_industry_share+gdp_growth_pct,0.17341568164439985,0.16239725835716634,0.28558882059049784,0.261,168,28
+alt_outcome|main(excl_Xinjiang)|(a)no_controls,wind_util_hours,none,-20.807642044107503,21.946156938362794,0.34306716787682523,0.286,203,29
+alt_outcome|main(excl_Xinjiang)|(c)+export+ind+gdp,wind_util_hours,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct+export_ratio_pct+secondary_industry_share+gdp_growth_pct,-21.42797037863209,21.175955396778765,0.3115853925342341,0.302,168,28
+alt_outcome|main(excl_Xinjiang)|(a)no_controls,solar_util_hours,none,-3.344178634868694,11.444205945745544,0.7701215758833195,0.762,203,29
+alt_outcome|main(excl_Xinjiang)|(c)+export+ind+gdp,solar_util_hours,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct+export_ratio_pct+secondary_industry_share+gdp_growth_pct,-2.0816350630329854,12.639956843449623,0.8691904437695034,0.855,168,28
+baseline|incl_Xinjiang|(a)no_controls,wind_curtailment_pct,none,0.2648503338615221,0.17471045411481703,0.1295348604287146,0.145,210,30
+baseline|incl_Xinjiang|(b)cap+cons_growth,wind_curtailment_pct,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct,0.2469272949111402,0.17758489739729608,0.16438479728851818,0.184,180,30
+baseline|incl_Xinjiang|(c)+export+ind+gdp,wind_curtailment_pct,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct+export_ratio_pct+secondary_industry_share+gdp_growth_pct,0.20636792021286446,0.12046063101447294,0.08668374096548058,0.082,174,29
+baseline|incl_Xinjiang|(a)no_controls,solar_curtailment_pct,none,0.15949968072275045,0.13730605693358755,0.24538328742836157,0.243,210,30
+baseline|incl_Xinjiang|(b)cap+cons_growth,solar_curtailment_pct,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct,0.16868154719261294,0.14926416184117597,0.2584394023472665,0.23,180,30
+baseline|incl_Xinjiang|(c)+export+ind+gdp,solar_curtailment_pct,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct+export_ratio_pct+secondary_industry_share+gdp_growth_pct,0.12865858196959135,0.15868837100935132,0.41750206784357624,0.345,174,29
+alt_outcome|incl_Xinjiang|(a)no_controls,wind_util_hours,none,-12.301476558741811,21.007376467898283,0.5581585261457926,0.574,210,30
+alt_outcome|incl_Xinjiang|(c)+export+ind+gdp,wind_util_hours,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct+export_ratio_pct+secondary_industry_share+gdp_growth_pct,-14.928560526213438,19.8388089195517,0.4517547686074068,0.426,174,29
+alt_outcome|incl_Xinjiang|(a)no_controls,solar_util_hours,none,3.8280849671662196,12.190032478688755,0.7534951965839656,0.741,210,30
+alt_outcome|incl_Xinjiang|(c)+export+ind+gdp,solar_util_hours,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct+export_ratio_pct+secondary_industry_share+gdp_growth_pct,3.7257756137628952,12.368866065846083,0.7632451507759801,0.746,174,29
+placebo|fake_post_2021,wind_curtailment_pct,none,-0.29470555175612667,0.2270866281095381,0.1943673828328979,,116,29
+placebo|fake_post_2021,solar_curtailment_pct,none,-0.1310464531011245,0.14948847815628372,0.38068629963437073,,116,29
+placebo|fake_post_2022,wind_curtailment_pct,none,-0.1266648835681811,0.12945842647251793,0.32786599147280826,,145,29
+placebo|fake_post_2022,solar_curtailment_pct,none,0.00944252215894957,0.07489914143314917,0.8996766476769498,,145,29
+placebo|fake_post_2023,wind_curtailment_pct,none,-0.061186798751382915,0.1291357694647115,0.6356299917362558,,174,29
+placebo|fake_post_2023,solar_curtailment_pct,none,0.1800874169674232,0.07424960271372387,0.015290148951710261,,174,29
+heterogeneity|NW5(incl_XJ)|wind_curtailment_pct,wind_curtailment_pct,none,0.03970163618864353,0.7816850230363124,0.9594930084052596,1.0,35,5
+heterogeneity|non_NW5(excl_XJ)|wind_curtailment_pct,wind_curtailment_pct,none,0.2858572776116928,0.1027318324193942,0.005393223185913693,0.021,175,25
+heterogeneity|NW5(incl_XJ)|solar_curtailment_pct,solar_curtailment_pct,none,0.3246711581649032,0.25261423414562584,0.1987067151148244,0.369,35,5
+heterogeneity|non_NW5(excl_XJ)|solar_curtailment_pct,solar_curtailment_pct,none,0.1721060615469238,0.13802128058619514,0.21241470054925315,0.218,175,25
+heterogeneity|high_wind_cf_cv|wind_curtailment_pct,wind_curtailment_pct,none,0.07302680529448624,0.08585562840613402,0.39500448393935594,0.348,105,15
+heterogeneity|low_wind_cf_cv|wind_curtailment_pct,wind_curtailment_pct,none,0.060425432445068095,0.24604655479277085,0.8060032210150229,0.794,98,14
+heterogeneity|high_hydro_share|wind_curtailment_pct,wind_curtailment_pct,none,0.02257954558811473,0.15783334017356682,0.8862432559395587,0.848,98,14
+heterogeneity|low_hydro_share|wind_curtailment_pct,wind_curtailment_pct,none,0.21800245693612097,0.2015950649087896,0.279524617105817,0.273,98,14
+heterogeneity|high_hydro_share|solar_curtailment_pct,solar_curtailment_pct,none,0.07918904835227733,0.21199164829841308,0.7087406551965493,0.726,98,14
+heterogeneity|low_hydro_share|solar_curtailment_pct,solar_curtailment_pct,none,0.3121962578972966,0.2310379166345707,0.17660666830799132,0.259,98,14
+mechanism|new capacity growth (rush-install)|new_re_cap_growth_pct,new_re_cap_growth_pct,none,13.624497540209884,17.228507044963976,0.4290541322324567,,164,28
+mechanism|new capacity growth (rush-install)+ctrl_b|new_re_cap_growth_pct,new_re_cap_growth_pct,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct,26.142414921379174,22.397075912622157,0.24311973391893638,,137,28
+mechanism|export ratio|export_ratio_pct,export_ratio_pct,none,-0.4157869571870854,0.9983207637752657,0.6770541638312644,,174,29
+mechanism|export ratio+ctrl_b|export_ratio_pct,export_ratio_pct,wind_cap_growth_pct+solar_cap_growth_pct+consumption_growth_pct,0.34285725079966634,1.1759836994268362,0.7706312274746608,,174,29
