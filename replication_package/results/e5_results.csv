@@ -1,0 +1,8 @@
+﻿test,outcome,stat,p,df_denom
+E5a_eventstudy_jointF,wind_curtailment_pct,0.9024919016649345,0.4932874913333575,28.0
+E5a_eventstudy_jointF,solar_curtailment_pct,1.5461702688212733,0.20775383246825652,28.0
+E5b_wildboot_9999,wind_curtailment_pct,0.22945120251295478,0.0017,
+E5c_ME_low,wind_curtailment_pct,-0.39506576970833907,0.01241336562854924,
+E5c_ME_mid,wind_curtailment_pct,-0.22672629843325004,0.07412674235464418,
+E5c_ME_high,wind_curtailment_pct,0.12478604933472426,0.12739400318856506,
+E5d_T1_with_storage5xPost,wind_curtailment_pct,0.09544995013481321,0.032421131935511,

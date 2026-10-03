@@ -1,5 +1,7 @@
 # Replication Package
 
+**Public repository:** https://github.com/1138034910-a11y/RPS-
+
 **Paper:** When renewable mandates meet heating lock-in: evidence from China's wind curtailment rebound
 
 **Authors:** Haoshuang Cheng (corresponding), Leiming Li — China University of Petroleum (East China)
@@ -32,6 +34,12 @@ replication_package/
 | `make_figures_v1.py` / `make_updates_v8d.py` / `make_updates_v9.py` | Figures |
 | `make_tables_v1.py` | Tables |
 | `replicate_t2c_fixest.R` | Independent R/`fixest` replication of the main results (SI S2) |
+| `e1_baseline_horserace.py` | Baseline-curtailment horse races (scale-artifact check, SI Fig. S8 / Table S9) |
+| `e2_assignment_dose.py` | Assignment diagnostics and residualized-increment variants (SI S2) |
+| `e3_moderator_validity.py` | Moderator stability across yearbook years and construct validity (SI S2) |
+| `e4_counterfactual_redo.py` | Counterfactual with uncertainty propagation, dual baselines, CO2 conversion (Table S7) |
+| `e5_odds_and_ends.py` | Event-study joint tests, 9,999-replication bootstrap, piecewise marginal effects, storage control |
+| `make_fig_e1_horserace.py` | Figure S8 (horse-race forest plot) |
 
 ## Requirements
 
